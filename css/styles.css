@@ -108,6 +108,7 @@ address{
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .nav-item {
     margin-left: 50px;
@@ -133,6 +134,7 @@ address{
     letter-spacing: 0.02em;
     text-decoration: none;
     margin-left: auto;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-contact:hover,
 .header-contact:focus,
@@ -140,7 +142,6 @@ address{
 .header-contact .header-icon:focus {
     color: var(--accent-color);
     fill: var(--accent-color);
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -165,12 +166,10 @@ address{
     background-color: var(--accent-color);
     color: var(--color-text-action);
     border-color: transparent;
-     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .btn-primary:hover,
 .btn-primary:focus {
     background-color: #188CE8;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .nav-list-link:hover,
 .footer-contact:hover,
@@ -179,7 +178,6 @@ address{
 .footer-contact:focus,
 .footer-address:focus{
     color: var(--accent-color);
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -286,6 +284,7 @@ address{
     padding: 10px 24px;
     min-width: 200px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
 }
 .button {
@@ -304,6 +303,7 @@ address{
     letter-spacing: 0.03em;
     text-align: center;
     cursor: pointer;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 .button-desc-current{
@@ -319,11 +319,11 @@ address{
     text-align: center;
     cursor: pointer;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button-desc:hover,
 .button-desc:focus {
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .visually-hidden {
@@ -464,12 +464,12 @@ address{
     background-color: var(--primary-background-color);
     fill: var(--color-icon);
     border-radius: 50%;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .team-link:hover,
 .team-link:focus {
     background-color: var(--accent-color);
     fill: var(--color-text-action);
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* Clients */
@@ -490,13 +490,13 @@ address{
     align-items: center;
     width: 170px;
     height: 92px;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .client-link:hover,
 .client-link:focus {
     fill: var(--accent-color);
     border-color: var(--accent-color);
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* Portfolio */
@@ -529,11 +529,11 @@ address{
 .project-link {
     display: block;
     text-decoration: none;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .project-link:hover,
 .project-link:focus {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .project-tittle {
     color: var(--tittle-text-color);
@@ -598,6 +598,7 @@ address{
 .footer-contact,
 .footer-address {
     text-decoration: none;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-contact{
     color: rgba(255, 255, 255, 0.6);
@@ -620,8 +621,6 @@ address{
     display: flex;
     gap: 10px;
     margin-top: 20px;
-    /* align-items: center;
-    justify-content: center; */
 }
 .address-social-item {
     width: 44px;
@@ -636,12 +635,12 @@ address{
     background-color: rgba(255, 255, 255, 0.1);
     fill: var(--color-text-action);
     border-radius: 50%;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .address-link:hover,
 .address-link:focus {
     background-color: var(--accent-color);
     fill: var(--color-text-action);
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address-tittle {
